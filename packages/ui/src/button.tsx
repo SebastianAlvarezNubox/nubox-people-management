@@ -1,6 +1,6 @@
-import React from "react";
+import * as React from "react";
 
-export default function Button(props) {
+export function Button(props) {
   const {
     children,
     disabled = false,

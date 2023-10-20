@@ -1,5 +1,5 @@
 import { useEffect, useReducer, useState } from "react";
-import Button from './button.component';
+import {Button} from 'ui';
 
 import "./global.css?modules=false";
 
