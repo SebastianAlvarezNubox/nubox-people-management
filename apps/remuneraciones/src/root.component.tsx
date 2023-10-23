@@ -2,6 +2,7 @@ import { useEffect, useReducer, useState } from "react";
 import {Button} from 'ui';
 
 import "./global.css?modules=false";
+import { MyCombobox } from "./combobox";
 
 interface Departamento {
   codigo: string;
@@ -80,6 +81,6 @@ export default function Root(props) {
     <button className="bg-sky-500 hover:bg-sky-700 px-5 py-2 text-sm leading-5 rounded-full font-semibold text-white">
     Save changes
   </button>
-  <Button>test</Button>
+  <MyCombobox />
   </>;
 }
