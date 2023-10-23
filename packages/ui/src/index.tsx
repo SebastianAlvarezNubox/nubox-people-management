@@ -5,3 +5,4 @@ import "./styles.css";
 export * from "./card";
 export * from './button';
 export * from './select';
+export * from './combobox';

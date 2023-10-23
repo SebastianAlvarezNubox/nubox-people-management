@@ -11,14 +11,14 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "tsup src/index.tsx --format cjs --dts --external react, @headlessui/react",
+    "build": "tsup",
     "lint": "eslint src/",
     "dev": "tsup --watch",
     "check-types": "tsc --noEmit"
   },
   "peerDependencies": {
-    "@headlessui/react": "^1.7.17",
-    "@heroicons/react": "^2.0.18"
+    "@headlessui/react": "1.x",
+    "@heroicons/react": "2.x"
   },
   "devDependencies": {
     "@types/react": "^17.0.19",

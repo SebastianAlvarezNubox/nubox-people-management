@@ -1,8 +1,7 @@
 import { useEffect, useReducer, useState } from "react";
-import {Button} from 'ui';
 
 import "./global.css?modules=false";
-import { MyCombobox } from "./combobox";
+import { MyCombobox } from "ui";
 
 interface Departamento {
   codigo: string;

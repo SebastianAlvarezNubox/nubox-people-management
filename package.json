@@ -7,11 +7,12 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.23.0",
     "eslint": "^8.48.0",
     "prettier": "^3.0.3",
+    "tailwindcss": "^3.3.3",
     "tsconfig": "*",
-    "turbo": "latest",
-    "tailwindcss": "^3.3.3"
+    "turbo": "latest"
   },
   "name": "nubox-people-management",
   "packageManager": "npm@9.5.1",

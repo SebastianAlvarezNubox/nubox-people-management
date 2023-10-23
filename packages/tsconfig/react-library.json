@@ -3,10 +3,23 @@
   "display": "React Library",
   "extends": "./base.json",
   "compilerOptions": {
-    "jsx": "react-jsx",
-    "lib": ["ES2015", "DOM"],
-    "module": "ESNext",
     "target": "es6",
-    "moduleResolution": "node"
+    "esModuleInterop": true,
+    "module": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "lib": [
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015",
+      "es2015.promise",
+      "es2016.array.include",
+      "es2018"
+    ],
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "jsx": "react-jsx"
   }
 }
